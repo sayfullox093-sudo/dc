@@ -1,0 +1,97 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: blueviolet;
+    animation-name: maymunla;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-direction:normal;
+}
+@keyframes maymunla{
+0%{
+   
+width: 200px;
+height: 200px;
+background-color: rgb(253, 217, 173);
+
+}
+10%{
+    transform: translateX(200px)  rotate(90deg) ;
+    width: 200px;
+height: 200px;
+background-color: rgb(92, 221, 6);
+
+
+}
+20%{
+    transform: translateX(300px)   rotate(180deg);
+    width: 200px;
+height: 200px;
+background-color: rgb(106, 70, 233);
+
+
+}
+30%{
+    transform: translateX(400px)  rotate(270deg);
+    width: 200px;
+height: 200px;
+background-color: rgb(223, 74, 236);
+
+
+
+}
+40%{
+    transform: translateX(500px)   rotate(360deg);
+    width: 200px;
+height: 200px;
+background-color: rgb(250, 180, 51);
+
+}
+50%{
+    transform: translateX(600px)   rotate(450deg);
+    width: 200px;
+height: 200px;
+background-color: rgb(241, 101, 101);
+
+}
+60%{
+    transform: translateX(700px)   rotate(540deg);
+    width: 200px;
+height: 200px;
+background-color: rgb(113, 167, 192);
+
+}
+70%{
+    transform: translateX(800px)   rotate(630deg);
+    width: 200px;
+height: 200px;
+background-color: rgb(44, 94, 44);
+
+}
+80%{
+    transform: translateX(900px)   rotate(720deg);
+    width: 200px;
+height: 200px;
+background-color: rgba(240, 205, 6, 0.884);
+
+}
+90%{
+    transform: translateX(1000px)   rotate(810deg);
+    width: 200px;
+height: 200px;
+background-color: rgb(243, 119, 146);
+
+}
+100%{
+    transform: translateX(1100px)   rotate(900deg);
+    width: 200px;
+height: 200px;
+background-color: rgb(216, 195, 170);
+
+}
+}
